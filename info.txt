@@ -1,0 +1,7 @@
+Pour créer le clientWS,
+	=> Configurer le wsimport dans SOAP (le .exe est dans C:\Program Files\Java\jdk1.8.0_101\bin)
+		-> Aller dans préferences->tools, définir le JAX-WS WSImport = C:\Program Files\Java\jdk1.8.0_101\bin
+	=> Depuis SOAP, Tools->JAX-WS Artifacts
+		-> Définir WSDL = url du webService (http://localhost:8585/BanqueWS?wsdl)
+		-> Définir le source Directory = url du src client pour creer les fichier java (D:\Users\aboujiba\workspace\ClientWS\src)
+		-> Définir le TargetDirectory = le bin pour mettre le byteCode (D:\Users\aboujiba\workspace\ClientWS\bin)
